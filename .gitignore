@@ -1,0 +1,10 @@
+.vscode
+.env
+.npm
+
+*.log
+
+node_modules/
+**/node_modules/
+dist
+**/dist/
