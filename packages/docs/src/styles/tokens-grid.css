@@ -1,7 +1,22 @@
+* {
+  border: inherit !important;
+}
+
 .tokens-grid {
   width: 100%;
   font-family: sans-serif;
+  color: #fff;
   border-collapse: collapse;
+}
+
+.tokens-grid thead th {
+  padding: 0.75rem 1rem;
+  text-align: left;
+}
+
+.tokens-grid tbody td {
+  padding: 0.75rem 1rem;
+  color: #ccc;
 }
 
 .tokens-grid tbody td:first-child {
@@ -10,4 +25,8 @@
 
 .tokens-grid tbody td:last-child {
   border-radius: 0 8px 8px 0;
+}
+
+.tokens-grid tbody tr:nth-child(odd) td {
+  background-color: #444;
 }
