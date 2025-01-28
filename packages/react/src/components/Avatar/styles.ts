@@ -3,6 +3,7 @@ import { styled } from "../../styles";
 
 export const AvatarContainer = styled(Avatar.Root, {
   borderRadius: "$full",
+  border: "1px solid $gray800",
   display: "inline-block",
   width: "$12",
   height: "$12",
@@ -22,7 +23,7 @@ export const AvatarFallback = styled(Avatar.Fallback, {
   display: "flex",
   alignItems: "center",
   justifyContent: "center",
-  backgroundColor: "$gray600",
+  backgroundColor: "$gray400",
   color: "$gray800",
 
   svg: {
