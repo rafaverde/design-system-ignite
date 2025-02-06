@@ -23,7 +23,7 @@ jobs:
 
       - run: npm run build
         env:
-          TURBO_TOKEN: wG2Yp33hyxiiWWcZvJzTtqqa
+          TURBO_TOKEN: ${{secrets.VERCEL_TOKEN}}
           TURBO_TEAM: rafael-valverdes-projects
 
       - name: Deploy Storybook
