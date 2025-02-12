@@ -1,7 +1,7 @@
 import { StoryObj, Meta } from "@storybook/react";
 
 import { Button, ButtonProps } from "@ignite-ui/react";
-import { ArrowCircleRight } from "phosphor-react";
+import { ArrowCircleRight } from "@phosphor-icons/react";
 
 export default {
   title: "Form/Button",

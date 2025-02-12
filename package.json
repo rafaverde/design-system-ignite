@@ -20,5 +20,10 @@
     "globals": "^15.13.0",
     "turbo": "^2.3.3",
     "typescript-eslint": "^8.18.0"
+  },
+  "dependencies": {
+    "@radix-ui/react-toast": "^1.2.6",
+    "@types/react": "^19.0.8",
+    "@types/react-dom": "^19.0.3"
   }
 }
