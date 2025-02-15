@@ -9,6 +9,7 @@ export default {
   component: Toast,
   tags: ["autodocs"],
   args: {
+    open: false,
     title: "Agendamento realizado",
     description: "Quarta-feira, 23 de Outubro às 16h",
   },
@@ -24,10 +25,11 @@ export default {
 
 export const Primary: StoryObj<ToastProps> = {
   args: {
+    open: false,
     duration: 5000,
   },
 
-  render: (args) => {
+  render: (args: ToastProps) => {
     const [open, setOpen] = useState(args.open);
 
     return (

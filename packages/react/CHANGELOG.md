@@ -1,5 +1,11 @@
 # @rafaverde-ignite-ui/react
 
+## 1.0.4
+
+### Patch Changes
+
+- Add tooltip component.
+
 ## 1.0.3
 
 ### Patch Changes
