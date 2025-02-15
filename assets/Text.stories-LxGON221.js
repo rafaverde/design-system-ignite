@@ -1,0 +1,6 @@
+import{T as c}from"./index-CRfRdMsQ.js";import"./index-CgCoV-L-.js";import"./_commonjsHelpers-CqkleIqs.js";import"./index-CJ7M0nsd.js";import"./index-DFo_SN73.js";const g={title:"Typography/Text",component:c,tags:["autodocs"],args:{size:"md",children:"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id eum commodi ducimus, nesciunt doloribus blanditiis molestias modi dolorum voluptate, aliquam ipsa iure debitis ex rem fuga numquam, accusamus voluptates ut?"},argTypes:{size:{options:["xxs","xs","sm","md","lg","xl","2xl","4xl","5xl","6xl","7xl","8xl","9xl"],control:{type:"inline-radio"}}}},s={},e={args:{children:"Strong text. Lorem ipsum dolor sit amet, consectetur adipisicing elit. ",as:"strong"}};var r,t,o;s.parameters={...s.parameters,docs:{...(r=s.parameters)==null?void 0:r.docs,source:{originalSource:"{}",...(o=(t=s.parameters)==null?void 0:t.docs)==null?void 0:o.source}}};var i,a,m;e.parameters={...e.parameters,docs:{...(i=e.parameters)==null?void 0:i.docs,source:{originalSource:`{
+  args: {
+    children: "Strong text. Lorem ipsum dolor sit amet, consectetur adipisicing elit. ",
+    as: "strong"
+  }
+}`,...(m=(a=e.parameters)==null?void 0:a.docs)==null?void 0:m.source}}};const x=["Primary","CustomTag"];export{e as CustomTag,s as Primary,x as __namedExportsOrder,g as default};
